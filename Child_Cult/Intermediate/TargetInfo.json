@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Child_Cult",
+			"Path": "D:\\UnrealEngine Projects\\UnrealHorrorGame\\Child_Cult\\Source\\Child_Cult.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Child_CultEditor",
+			"Path": "D:\\UnrealEngine Projects\\UnrealHorrorGame\\Child_Cult\\Source\\Child_CultEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
