@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeChild_Cult_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x4F8B6534,
+				0x546160E8,
 				0xDE6341EB,
 				METADATA_PARAMS(nullptr, 0)
 			};

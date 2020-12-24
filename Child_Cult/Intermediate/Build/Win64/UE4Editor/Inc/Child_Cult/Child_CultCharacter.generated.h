@@ -60,10 +60,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AChild_CultCharacter); \
 
 #define Child_Cult_Source_Child_Cult_Child_CultCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh1P() { return STRUCT_OFFSET(AChild_CultCharacter, Mesh1P); } \
-	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(AChild_CultCharacter, FP_Gun); } \
-	FORCEINLINE static uint32 __PPO__FP_MuzzleLocation() { return STRUCT_OFFSET(AChild_CultCharacter, FP_MuzzleLocation); } \
-	FORCEINLINE static uint32 __PPO__VR_Gun() { return STRUCT_OFFSET(AChild_CultCharacter, VR_Gun); } \
-	FORCEINLINE static uint32 __PPO__VR_MuzzleLocation() { return STRUCT_OFFSET(AChild_CultCharacter, VR_MuzzleLocation); } \
 	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(AChild_CultCharacter, FirstPersonCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__R_MotionController() { return STRUCT_OFFSET(AChild_CultCharacter, R_MotionController); } \
 	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AChild_CultCharacter, L_MotionController); }

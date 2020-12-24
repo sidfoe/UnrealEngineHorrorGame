@@ -1,11 +1,11 @@
-D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Development\Child_Cult\Definitions.Child_Cult.h
-D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Source\Child_Cult\Child_CultHUD.h
+D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Development\Child_Cult\Definitions.Child_Cult.h
+D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Source\Child_Cult\Child_CultHUD.h
 D:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
 D:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
 D:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
 D:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
 D:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Inc\Child_Cult\Child_CultHUD.generated.h
+D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Inc\Child_Cult\Child_CultHUD.generated.h
 D:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
 D:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Public\CanvasItem.h
 D:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
