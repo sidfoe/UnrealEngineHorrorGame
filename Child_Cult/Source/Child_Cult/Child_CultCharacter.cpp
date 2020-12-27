@@ -129,6 +129,10 @@ void AChild_CultCharacter::SetupPlayerInputComponent(class UInputComponent* Play
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AChild_CultCharacter::LookUpAtRate);
 }
 
+void AChild_CultCharacter::PickUpObject()
+{
+}
+
 void AChild_CultCharacter::OnFire()
 {
 	//// try and fire a projectile

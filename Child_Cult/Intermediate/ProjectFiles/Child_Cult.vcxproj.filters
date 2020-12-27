@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Child_Cult.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B542625C-1BF2-49DB-A222-AF469BAFE56D}</UniqueIdentifier>
+      <UniqueIdentifier>{C32F4ADA-3025-4EAC-921A-58EE653982EA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Child_Cult.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{32770383-8D49-4F38-B97E-AFE75B0911E1}</UniqueIdentifier>
+      <UniqueIdentifier>{3E01A412-0A2A-4DC8-B0FD-B959D128FF46}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Child_Cult">
-      <UniqueIdentifier>{0A38BE29-3AFB-491B-B895-A60081B8605F}</UniqueIdentifier>
+      <UniqueIdentifier>{F7905B56-3A8E-475B-9FB9-E93848CDAF97}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Child_Cult\Child_Cult.Build.cs">
       <Filter>Source\Child_Cult</Filter>
@@ -63,6 +63,12 @@
       <Filter>Source\Child_Cult</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Child_Cult\Child_CultProjectile.h">
+      <Filter>Source\Child_Cult</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Child_Cult\Inventory.cpp">
+      <Filter>Source\Child_Cult</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Child_Cult\Inventory.h">
       <Filter>Source\Child_Cult</Filter>
     </ClInclude>
   </ItemGroup>

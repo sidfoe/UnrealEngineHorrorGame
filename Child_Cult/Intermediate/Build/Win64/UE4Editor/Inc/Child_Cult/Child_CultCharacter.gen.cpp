@@ -22,8 +22,43 @@ void EmptyLinkFunctionForGeneratedCodeChild_CultCharacter() {}
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AChild_CultCharacter::execPickUpObject)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->PickUpObject();
+		P_NATIVE_END;
+	}
 	void AChild_CultCharacter::StaticRegisterNativesAChild_CultCharacter()
 	{
+		UClass* Class = AChild_CultCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "PickUpObject", &AChild_CultCharacter::execPickUpObject },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AChild_CultCharacter_PickUpObject_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AChild_CultCharacter_PickUpObject_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Functions" },
+		{ "ModuleRelativePath", "Child_CultCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AChild_CultCharacter_PickUpObject_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AChild_CultCharacter, nullptr, "PickUpObject", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AChild_CultCharacter_PickUpObject_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AChild_CultCharacter_PickUpObject_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AChild_CultCharacter_PickUpObject()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AChild_CultCharacter_PickUpObject_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AChild_CultCharacter_NoRegister()
 	{
@@ -32,6 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeChild_CultCharacter() {}
 	struct Z_Construct_UClass_AChild_CultCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -75,6 +111,9 @@ void EmptyLinkFunctionForGeneratedCodeChild_CultCharacter() {}
 	UObject* (*const Z_Construct_UClass_AChild_CultCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_Child_Cult,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AChild_CultCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AChild_CultCharacter_PickUpObject, "PickUpObject" }, // 474335249
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChild_CultCharacter_Statics::Class_MetaDataParams[] = {
@@ -184,11 +223,11 @@ void EmptyLinkFunctionForGeneratedCodeChild_CultCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AChild_CultCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AChild_CultCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -203,7 +242,7 @@ void EmptyLinkFunctionForGeneratedCodeChild_CultCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AChild_CultCharacter, 5738556);
+	IMPLEMENT_CLASS(AChild_CultCharacter, 2691477491);
 	template<> CHILD_CULT_API UClass* StaticClass<AChild_CultCharacter>()
 	{
 		return AChild_CultCharacter::StaticClass();

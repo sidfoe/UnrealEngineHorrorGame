@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CHILD_CULT_Child_CultCharacter_generated_h
 
 #define Child_Cult_Source_Child_Cult_Child_CultCharacter_h_20_SPARSE_DATA
-#define Child_Cult_Source_Child_Cult_Child_CultCharacter_h_20_RPC_WRAPPERS
-#define Child_Cult_Source_Child_Cult_Child_CultCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define Child_Cult_Source_Child_Cult_Child_CultCharacter_h_20_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPickUpObject);
+
+
+#define Child_Cult_Source_Child_Cult_Child_CultCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPickUpObject);
+
+
 #define Child_Cult_Source_Child_Cult_Child_CultCharacter_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAChild_CultCharacter(); \

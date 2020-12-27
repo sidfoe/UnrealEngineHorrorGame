@@ -78,6 +78,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint8 bUsingMotionControllers : 1;
 
+	UFUNCTION(BlueprintCallable, Category = Functions)
+	void PickUpObject();
+
+	
+
 protected:
 	
 	/** Fires a projectile. */

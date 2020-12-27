@@ -31,8 +31,8 @@
 /wd4244
 /wd4838
 /I .
-/I "D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Inc\Child_Cult"
-/I "D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Source"
+/I "D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Inc\Child_Cult"
+/I "D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Source"
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -265,12 +265,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Intermediate\Build\Win64\Child_CultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Intermediate\Build\Win64\Child_CultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Intermediate\Build\Win64\Child_CultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Inc\Child_Cult\Child_CultGameMode.gen.cpp"
-/FI"D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Development\Child_Cult\Definitions.Child_Cult.h"
-/Fo"D:\UnrealEngine Projects\UnrealHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Development\Child_Cult\Child_CultGameMode.gen.cpp.obj"
+/FI"D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Intermediate\Build\Win64\Child_CultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Intermediate\Build\Win64\Child_CultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Intermediate\Build\Win64\Child_CultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Inc\Child_Cult\Child_CultGameMode.gen.cpp"
+/FI"D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Development\Child_Cult\Definitions.Child_Cult.h"
+/Fo"D:\UnrealEngine Projects\UnrealEngineHorrorGame\Child_Cult\Intermediate\Build\Win64\UE4Editor\Development\Child_Cult\Child_CultGameMode.gen.cpp.obj"
 /TP
 /GR-
 /W4
